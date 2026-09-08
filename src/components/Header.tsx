@@ -3,10 +3,11 @@
 import { useEffect, useState } from "react";
 
 const navLinks = [
-  { label: "About", href: "/#about" },
-  { label: "Careers", href: "/#employment" },
-  { label: "Community", href: "/#charity" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/about" },
+  { label: "Employment", href: "/employment" },
+  { label: "Charity", href: "/charity" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Header({ solid = false }: { solid?: boolean }) {
@@ -29,16 +30,16 @@ export default function Header({ solid = false }: { solid?: boolean }) {
           : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         {/* Logo */}
-        <a
-          href="/"
-          className={`text-xl font-bold tracking-tight transition-colors ${
-            scrolled ? "text-charcoal" : "text-white"
-          }`}
-        >
-          <span className="text-green-primary">Shila</span>
-          <span className="font-light ml-0.5">LLC</span>
+        <a href="/" className="shrink-0">
+          <img
+            src="/images/logo.png"
+            alt="Shila"
+            className={`h-10 w-auto transition-all ${
+              scrolled ? "" : "brightness-0 invert"
+            }`}
+          />
         </a>
 
         {/* Desktop nav */}
@@ -47,18 +48,18 @@ export default function Header({ solid = false }: { solid?: boolean }) {
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-green-primary ${
-                scrolled ? "text-charcoal-light" : "text-white/90"
+              className={`text-sm font-medium transition-colors hover:text-brick ${
+                scrolled ? "text-warm-gray" : "text-white/90"
               }`}
             >
               {link.label}
             </a>
           ))}
           <a
-            href="/#employment"
-            className="rounded-full bg-green-primary px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-green-dark"
+            href="/employment"
+            className="rounded-full bg-brick px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-brick-dark"
           >
-            Join Our Team
+            Apply Now
           </a>
         </div>
 
@@ -66,7 +67,7 @@ export default function Header({ solid = false }: { solid?: boolean }) {
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className={`md:hidden p-2 transition-colors ${
-            scrolled ? "text-charcoal" : "text-white"
+            scrolled ? "text-warm-dark" : "text-white"
           }`}
           aria-label="Toggle menu"
         >
@@ -91,17 +92,17 @@ export default function Header({ solid = false }: { solid?: boolean }) {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-charcoal-light text-base font-medium py-2 transition-colors hover:text-green-primary"
+                className="text-warm-gray text-base font-medium py-2 transition-colors hover:text-brick"
               >
                 {link.label}
               </a>
             ))}
             <a
-              href="/#employment"
+              href="/employment"
               onClick={() => setMobileOpen(false)}
-              className="mt-2 rounded-full bg-green-primary px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-green-dark"
+              className="mt-2 rounded-full bg-brick px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-brick-dark"
             >
-              Join Our Team
+              Apply Now
             </a>
           </div>
         </div>

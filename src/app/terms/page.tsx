@@ -14,16 +14,16 @@ export default function TermsOfService() {
       <Header solid />
       <main className="pt-24 pb-20">
         <article className="mx-auto max-w-3xl px-6">
-          <h1 className="text-3xl font-bold tracking-tight text-charcoal sm:text-4xl">
+          <h1 className="text-3xl font-bold tracking-tight text-warm-dark sm:text-4xl">
             Terms of Service
           </h1>
-          <p className="mt-3 text-sm text-charcoal-light">
+          <p className="mt-3 text-sm text-warm-dark-light">
             Last updated: September 2024
           </p>
 
-          <div className="mt-10 space-y-8 text-base leading-relaxed text-charcoal-light">
+          <div className="mt-10 space-y-8 text-base leading-relaxed text-warm-dark-light">
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Acceptance of Terms
               </h2>
               <p className="mt-3">
@@ -34,7 +34,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Description of Business
               </h2>
               <p className="mt-3">
@@ -47,7 +47,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Intellectual Property
               </h2>
               <p className="mt-3">
@@ -65,7 +65,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Employment Disclaimer
               </h2>
               <p className="mt-3">
@@ -80,7 +80,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Use of Website
               </h2>
               <p className="mt-3">You agree to use this website only for lawful purposes and in a manner that does not:</p>
@@ -94,7 +94,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Disclaimer of Warranties
               </h2>
               <p className="mt-3">
@@ -111,7 +111,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Limitation of Liability
               </h2>
               <p className="mt-3">
@@ -129,7 +129,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Third-Party Links
               </h2>
               <p className="mt-3">
@@ -142,7 +142,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Governing Law
               </h2>
               <p className="mt-3">
@@ -155,7 +155,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Changes to These Terms
               </h2>
               <p className="mt-3">
@@ -168,7 +168,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Contact Us
               </h2>
               <p className="mt-3">
@@ -182,7 +182,7 @@ export default function TermsOfService() {
                   Email:{" "}
                   <a
                     href="mailto:info@shilallc.com"
-                    className="text-green-primary hover:text-green-dark transition-colors"
+                    className="text-brick hover:text-brick-dark transition-colors"
                   >
                     info@shilallc.com
                   </a>

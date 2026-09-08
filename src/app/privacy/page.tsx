@@ -14,16 +14,16 @@ export default function PrivacyPolicy() {
       <Header solid />
       <main className="pt-24 pb-20">
         <article className="mx-auto max-w-3xl px-6">
-          <h1 className="text-3xl font-bold tracking-tight text-charcoal sm:text-4xl">
+          <h1 className="text-3xl font-bold tracking-tight text-warm-dark sm:text-4xl">
             Privacy Policy
           </h1>
-          <p className="mt-3 text-sm text-charcoal-light">
+          <p className="mt-3 text-sm text-warm-dark-light">
             Last updated: September 2024
           </p>
 
-          <div className="mt-10 space-y-8 text-base leading-relaxed text-charcoal-light">
+          <div className="mt-10 space-y-8 text-base leading-relaxed text-warm-dark-light">
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Introduction
               </h2>
               <p className="mt-3">
@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Information We Collect
               </h2>
               <p className="mt-3">
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 How We Use Your Information
               </h2>
               <p className="mt-3">
@@ -93,7 +93,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Cookies and Tracking Technologies
               </h2>
               <p className="mt-3">
@@ -119,7 +119,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Data Retention
               </h2>
               <p className="mt-3">
@@ -132,7 +132,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Disclosure of Your Information
               </h2>
               <p className="mt-3">
@@ -158,7 +158,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Your Rights
               </h2>
               <p className="mt-3">
@@ -180,7 +180,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Security
               </h2>
               <p className="mt-3">
@@ -192,7 +192,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Changes to This Policy
               </h2>
               <p className="mt-3">
@@ -204,7 +204,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-charcoal">
+              <h2 className="text-xl font-semibold text-warm-dark">
                 Contact Us
               </h2>
               <p className="mt-3">
@@ -218,7 +218,7 @@ export default function PrivacyPolicy() {
                   Email:{" "}
                   <a
                     href="mailto:info@shilallc.com"
-                    className="text-green-primary hover:text-green-dark transition-colors"
+                    className="text-brick hover:text-brick-dark transition-colors"
                   >
                     info@shilallc.com
                   </a>

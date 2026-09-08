@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<style>
+  .brick { fill: #B5451B; }
+  .mortar { fill: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    .brick { fill: #D4724A; }
+    .mortar { fill: #2D2019; }
+  }
+</style>
+<rect class="mortar" width="32" height="32" rx="4"/>
+<rect class="brick" x="2" y="2" width="13" height="6" rx="1"/>
+<rect class="brick" x="17" y="2" width="13" height="6" rx="1"/>
+<rect class="brick" x="2" y="10" width="8" height="6" rx="1"/>
+<rect class="brick" x="12" y="10" width="8" height="6" rx="1"/>
+<rect class="brick" x="22" y="10" width="8" height="6" rx="1"/>
+<rect class="brick" x="2" y="18" width="13" height="6" rx="1"/>
+<rect class="brick" x="17" y="18" width="13" height="6" rx="1"/>
+<rect class="brick" x="2" y="26" width="8" height="4" rx="1"/>
+<rect class="brick" x="12" y="26" width="8" height="4" rx="1"/>
+<rect class="brick" x="22" y="26" width="8" height="4" rx="1"/>
+</svg>

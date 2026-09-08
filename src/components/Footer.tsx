@@ -1,12 +1,23 @@
+const footerLinks = [
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/about" },
+  { label: "Employment", href: "/employment" },
+  { label: "Charity", href: "/charity" },
+  { label: "Contact", href: "/contact" },
+];
+
 export default function Footer() {
   return (
-    <footer className="bg-charcoal py-16">
+    <footer className="bg-warm-dark py-16">
       <div className="mx-auto max-w-6xl px-6">
         {/* Top section */}
         <div className="flex flex-col items-center text-center">
-          <a href="/" className="text-2xl font-bold tracking-tight text-white">
-            <span className="text-green-primary">Shila</span>
-            <span className="font-light ml-0.5">LLC</span>
+          <a href="/">
+            <img
+              src="/images/logo.png"
+              alt="Shila"
+              className="h-10 w-auto brightness-0 invert"
+            />
           </a>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-white/60">
             Locally owned and operated, we strive daily for excellence in all we
@@ -15,16 +26,11 @@ export default function Footer() {
 
           {/* Nav links */}
           <div className="mt-8 flex flex-wrap justify-center gap-6">
-            {[
-              { label: "About", href: "/#about" },
-              { label: "Careers", href: "/#employment" },
-              { label: "Community", href: "/#charity" },
-              { label: "Contact", href: "/#contact" },
-            ].map((link) => (
+            {footerLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-white/50 transition-colors hover:text-green-primary"
+                className="text-sm text-white/50 transition-colors hover:text-brick-light"
               >
                 {link.label}
               </a>
