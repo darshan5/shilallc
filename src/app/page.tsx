@@ -217,26 +217,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* News Section */}
-        <section className="bg-white py-16 md:py-20">
-          <div className="mx-auto max-w-6xl px-6">
-            <ScrollReveal>
-              <div className="mx-auto max-w-3xl text-center">
-                <span className="inline-block text-sm font-semibold uppercase tracking-widest text-brick">
-                  News
-                </span>
-                <div className="mt-6 rounded-2xl border border-gray-100 bg-cream p-8">
-                  <p className="text-sm font-medium text-warm-gray uppercase tracking-wider">
-                    January 2020
-                  </p>
-                  <h3 className="mt-2 text-xl font-semibold text-warm-dark">
-                    Grand Opening: New Store in Trooper, PA
-                  </h3>
-                </div>
-              </div>
-            </ScrollReveal>
-          </div>
-        </section>
       </main>
       <Footer />
     </>
