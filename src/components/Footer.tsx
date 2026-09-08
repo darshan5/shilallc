@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6">
         {/* Top section */}
         <div className="flex flex-col items-center text-center">
-          <a href="#" className="text-2xl font-bold tracking-tight text-white">
+          <a href="/" className="text-2xl font-bold tracking-tight text-white">
             <span className="text-green-primary">Shila</span>
             <span className="font-light ml-0.5">LLC</span>
           </a>
@@ -16,10 +16,10 @@ export default function Footer() {
           {/* Nav links */}
           <div className="mt-8 flex flex-wrap justify-center gap-6">
             {[
-              { label: "About", href: "#about" },
-              { label: "Careers", href: "#employment" },
-              { label: "Community", href: "#charity" },
-              { label: "Contact", href: "#contact" },
+              { label: "About", href: "/#about" },
+              { label: "Careers", href: "/#employment" },
+              { label: "Community", href: "/#charity" },
+              { label: "Contact", href: "/#contact" },
             ].map((link) => (
               <a
                 key={link.href}
@@ -49,10 +49,17 @@ export default function Footer() {
             </p>
             <span className="hidden text-white/20 sm:inline">&middot;</span>
             <a
-              href="#"
+              href="/privacy"
               className="text-xs text-white/40 transition-colors hover:text-white/60"
             >
               Privacy Policy
+            </a>
+            <span className="hidden text-white/20 sm:inline">&middot;</span>
+            <a
+              href="/terms"
+              className="text-xs text-white/40 transition-colors hover:text-white/60"
+            >
+              Terms of Service
             </a>
           </div>
         </div>

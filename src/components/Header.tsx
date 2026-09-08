@@ -3,22 +3,23 @@
 import { useEffect, useState } from "react";
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Careers", href: "#employment" },
-  { label: "Community", href: "#charity" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Careers", href: "/#employment" },
+  { label: "Community", href: "/#charity" },
+  { label: "Contact", href: "/#contact" },
 ];
 
-export default function Header() {
-  const [scrolled, setScrolled] = useState(false);
+export default function Header({ solid = false }: { solid?: boolean }) {
+  const [scrolled, setScrolled] = useState(solid);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
+    if (solid) return;
     const onScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [solid]);
 
   return (
     <header
@@ -31,7 +32,7 @@ export default function Header() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <a
-          href="#"
+          href="/"
           className={`text-xl font-bold tracking-tight transition-colors ${
             scrolled ? "text-charcoal" : "text-white"
           }`}
@@ -54,7 +55,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="#employment"
+            href="/#employment"
             className="rounded-full bg-green-primary px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-green-dark"
           >
             Join Our Team
@@ -96,7 +97,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="#employment"
+              href="/#employment"
               onClick={() => setMobileOpen(false)}
               className="mt-2 rounded-full bg-green-primary px-5 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-green-dark"
             >
