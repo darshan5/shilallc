@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     "Montgomery County",
     "Pennsylvania",
   ],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     title: "Shila LLC | Dunkin' Franchise Group",
     description:
